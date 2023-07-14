@@ -27,7 +27,6 @@ const Blog = () => {
     ).then((data) => {
       setPosts(data);
       setisLoading(false);
-      console.log(data);
     })
     .catch(console.error);
   }, [])
