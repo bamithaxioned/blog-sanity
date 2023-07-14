@@ -4,4 +4,5 @@ export default sanityClient({
   projectId: 'lwyxhjw4',
   dataset: 'production',
   useCdn: false,
+  basePath: '/admin'
 })
